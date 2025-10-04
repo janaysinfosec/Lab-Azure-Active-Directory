@@ -12,7 +12,7 @@ Set up two domain controllers in Azure in a virtual network, with working AD, DN
 
 [![Watch Part 1](https://cdn.loom.com/sessions/thumbnails/589ef51df3874eb7bb7bac3fbea1f47f-with-play.jpg)](https://www.loom.com/share/589ef51df3874eb7bb7bac3fbea1f47f)
 
-(AD1.png)
+(images/AD1.png)
 
 ---
 
