@@ -28,7 +28,7 @@ This lab covers:
 
 -Deploying two Windows Server 2019 domain controllers (DC1 & DC2) in Azure VMs
 
-Installing and configuring Active Directory Domain Services (AD DS)
+-Installing and configuring Active Directory Domain Services (AD DS)
 
 -Setting up a new Active Directory Forest (myazurelab.com)
 
