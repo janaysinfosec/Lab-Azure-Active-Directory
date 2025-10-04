@@ -24,18 +24,40 @@ Set up two domain controllers in Azure in a virtual network, with working AD, DN
 
 This lab covers:
 
-- Creating an Azure Resource Group and Virtual Network
-- Deploying and configuring two Domain Controllers (DC1 and DC2)
-- Setting up Active Directory Domain Services
-- Configuring DNS, replication, and subnet mappings
-- Verifying domain replication using test users
+Creating an Azure Resource Group and Virtual Network
 
----
+Deploying two Windows Server 2019 domain controllers (DC1 & DC2) in Azure VMs
+
+Installing and configuring Active Directory Domain Services (AD DS)
+
+Setting up a new Active Directory Forest (myazurelab.com)
+
+Promoting DC1 as the first domain controller and creating SYSVOL and NTDS folders on a separate data drive
+
+Adding DC2 as an additional domain controller in the existing forest and ensuring replication
+
+Configuring DNS on both DCs with static private IPs and custom DNS settings in the virtual network
+
+Verifying Active Directory replication by creating and syncing test users between DC1 and DC2
+
+Configuring Active Directory Sites and Services, including subnet mapping
+
+Ensuring SYSVOL replication and domain controller synchronization
+
+Understanding core AD concepts like domain controllers, forest, replication, DNS integration, and subnet topology
+
 
 ## Result
 
-- A working Active Directory Forest on `myazurelab.com`
-- Two domain controllers (DC1 & DC2)
-- DNS is properly configured and replicating
-- Active Directory subnet mapping set up
+A fully functional Active Directory Forest (myazurelab.com)
+
+Two domain controllers (DC1 & DC2) with proper SYSVOL and NTDS data storage
+
+DNS properly configured and replicating within Azure Virtual Network
+
+Active Directory replication verified between domain controllers
+
+Active Directory subnet mapping set up to support site-aware services
+
+---
 
