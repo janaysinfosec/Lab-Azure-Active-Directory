@@ -37,5 +37,5 @@ This lab covers:
 - A working Active Directory Forest on `myazurelab.com`
 - Two domain controllers (DC1 & DC2)
 - DNS is properly configured and replicating
-- 🗺️ Active Directory subnet mapping set up
+- Active Directory subnet mapping set up
 
