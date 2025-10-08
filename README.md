@@ -1,4 +1,4 @@
-# 2025 Azure AD Lab – Two Domain Controllers Setup
+# Using Azure to Host Windows Active Directory – Two Domain Controllers Setup
 
 ## Goal
 Set up two domain controllers in Azure in a virtual network, with working AD, DNS, and replication.
